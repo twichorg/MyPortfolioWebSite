@@ -1,0 +1,37 @@
+.about {
+    background-color: #000000;
+    font-size: 1.1em;
+  }
+  
+  .profile {
+    max-width: 24.6em;
+    border-radius:  15px;
+    height: auto;
+  }
+  .profile:hover {
+    transform: rotateZ(360deg);
+    transition:transform 3.0s;
+  }
+  
+  .my-details {
+    background-color:#000000;
+  }
+
+
+  h1 {
+    color:#ffffff;
+  }
+
+  .write{
+    color: #ffffff;
+    font-size: 1.17em;
+  }
+
+  .font-details {
+    font-size: 3em;
+    font-weight: 500;
+    color: azure;
+  }
+
+  
+ 
