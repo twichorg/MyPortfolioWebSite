@@ -96,24 +96,8 @@ export const skills = {
       imgSrc: L_NODE_JS,
       skillName: "Node.js",
     },
-    {
-      link: "https://expressjs.com/",
-      imgAltText: "Express",
-      imgSrc: L_EXPRESS,
-      skillName: "Express",
-    },
-    {
-      link: "https://www.djangoproject.com/",
-      imgAltText: "Django",
-      imgSrc: L_DJANGO,
-      skillName: "Django",
-    },
-    {
-      link: "https://flask.palletsprojects.com/",
-      imgAltText: "Flask",
-      imgSrc: L_FLASK,
-      skillName: "Flask",
-    },
+    
+   
   ],
   hostingPlatforms: [
     {
@@ -148,26 +132,9 @@ export const skills = {
       imgSrc: L_TYPESCRIPT,
       skillName: "TypeScript",
     },
-    {
-      link: "https://www.python.org/",
-      imgAltText: "Python",
-      imgSrc: L_PYTHON,
-      skillName: "Python",
-    },
-    {
-      link: "https://golang.org/",
-      imgAltText: "Golang",
-      imgSrc: L_GOLANG,
-      skillName: "Golang",
-    },
   ],
   databases: [
-    {
-      link: "https://www.postgresql.org/",
-      imgAltText: "PostgreSQL",
-      imgSrc: L_POSTGRESQL,
-      skillName: "PostgreSQL",
-    },
+    
     {
       link: "https://www.microsoft.com/en-us/sql-server/sql-server-2019",
       imgAltText: "MS-SQL",

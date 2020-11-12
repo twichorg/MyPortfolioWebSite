@@ -11,13 +11,21 @@ import Rotate from 'react-reveal/Rotate';
 import ProjectTimeLine from './components/project-timeline/project-timeline.component';
 import Contact from './pages/contact/contact.component';
 import FooterPanel from './components/footer/footer.component';
+import Particles from "react-particles-js";
+import { particlesOptions } from "./particlesOptions";
 
 const App = () => {
   return (
     <div className="App" style={{ position: "relative" }}>
+    
      <MyNavbar/>
       <MyCarousal/>
        <TitleMessage/>
+         <Particles
+        className="particles particles-box"
+        params={particlesOptions}
+      />
+       <Container>
        <Fade bottom big duration={50}>
          <hr/>
         <About/>
@@ -32,6 +40,7 @@ const App = () => {
             </Fade> 
              <hr/>
               <FooterPanel/> 
+              </Container>
     </div>
   );
 }

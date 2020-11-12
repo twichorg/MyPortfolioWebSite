@@ -3,15 +3,11 @@
     color: beige;
     font-size: 1.5em;
     border: 2px solid #101018f8;
-    border-top-left-radius: 3px;
-    justify-content: center; 
-    margin: auto;
-   padding-left: 48px;
+   border-radius: 12px;
   }
 
   .footer {
     background-position: center;
     justify-content: center;
-    margin: auto;
-    padding: initial;
+    border-radius: 5px;
   }
