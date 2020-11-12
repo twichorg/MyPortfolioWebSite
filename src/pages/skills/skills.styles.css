@@ -1,0 +1,41 @@
+.focus {
+  transition: transform 0.3s;
+}
+
+.focus:hover {
+  transform: scale(1.05);
+}
+
+.card-title {
+  font-size: 2em;
+  font-weight: 700;
+  color: #101111;
+}
+
+.card {
+  border-radius: 17px;
+  background-color: rgb(242,242,242);
+  font-size: medium;
+}
+
+.image-style {
+  width: 3em;
+}
+
+.font-details {
+  font-size: 3em;
+  font-weight: 500;
+}
+
+.font-details-b {
+  font-size: 3em;
+  font-weight: 500;
+}
+
+.text-dark{
+  font-size: large;
+  font-style: italic;
+
+} 
+
+

@@ -6,10 +6,12 @@ import Image from 'react-bootstrap/Image'
 import Profile from '../../assets/resimler/1605008673948.jpg'
 import './about.component.style.css'
 import Button from 'react-bootstrap/Button'
+import Fade from 'react-reveal/Fade';
 
 
 const About = () => {
     return (
+      <Fade left big>
         <div id='about'>
          <div className="about">
           <h1 className="pt-3 text-center font-details pb-3"> <strong>About Me</strong></h1>
@@ -67,6 +69,7 @@ const About = () => {
            </Container>
         </div>
          </div>
+         </Fade>
     )
 }
 

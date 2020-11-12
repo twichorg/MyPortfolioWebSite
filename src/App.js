@@ -7,6 +7,8 @@ import About from './pages/about/about.component';
 import Fade from "react-reveal/Fade";
 import { Parallax } from 'react-parallax';
 import Container from 'react-bootstrap/Container';
+import Skills from './pages/skills/skills.component';
+import Rotate from 'react-reveal/Rotate';
 
 const App = () => {
   return (
@@ -14,7 +16,11 @@ const App = () => {
      <MyNavbar/>
       <MyCarousal/>
        <TitleMessage/>
+       <Fade bottom big>
         <About/>
+         <Skills/>
+          </Fade>
+         
     </div>
   );
 }
