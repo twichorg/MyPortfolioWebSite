@@ -10,8 +10,6 @@ import Skills from './pages/skills/skills.component';
 import ProjectTimeLine from './components/project-timeline/project-timeline.component';
 import Contact from './pages/contact/contact.component';
 import FooterPanel from './components/footer/footer.component';
-import Particles from "react-particles-js";
-import { particlesOptions } from "./particlesOptions";
 
 const App = () => {
   return (
