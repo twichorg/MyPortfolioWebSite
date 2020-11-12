@@ -7,7 +7,6 @@ import About from './pages/about/about.component';
 import Fade from "react-reveal/Fade";
 import Container from 'react-bootstrap/Container';
 import Skills from './pages/skills/skills.component';
-import Rotate from 'react-reveal/Rotate';
 import ProjectTimeLine from './components/project-timeline/project-timeline.component';
 import Contact from './pages/contact/contact.component';
 import FooterPanel from './components/footer/footer.component';
@@ -21,10 +20,6 @@ const App = () => {
      <MyNavbar/>
       <MyCarousal/>
        <TitleMessage/>
-         <Particles
-        className="particles particles-box"
-        params={particlesOptions}
-      />
        <Container>
        <Fade bottom big duration={50}>
          <hr/>
@@ -37,9 +32,8 @@ const App = () => {
                 <ProjectTimeLine/>
                 <hr />
                  <Contact/>  
+                 <FooterPanel/> 
             </Fade> 
-             <hr/>
-              <FooterPanel/> 
               </Container>
     </div>
   );

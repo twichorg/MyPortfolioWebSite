@@ -10,7 +10,7 @@ import ScrollDown from '../../components/scroll-down/scroll-down.component';
 const MyCarousal = () => {
     return (
      <div id="home">
-     <Carousel controls={false} indicators interval={4000} pause={false}>
+     <Carousel controls={false} indicators interval={4790} pause={false}>
      <Carousel.Item>
        <img
          className="d-block w-100 custom-img "

@@ -1,9 +1,9 @@
 .footer-style {
-    background-color: #2B2B2B;
+    background-color: #000000;
     color: beige;
     font-size: 1.5em;
-    border: 2px solid #101018f8;
-   border-radius: 12px;
+    border: 1px solid #000000;
+   border-radius: 5px;
   }
 
   .footer {

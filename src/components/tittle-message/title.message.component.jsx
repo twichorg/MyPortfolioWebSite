@@ -44,7 +44,7 @@ const TitleMessage = () => (
               strings: ["Web Developer", "Front-End Developer", "React Developer"],
               autoStart: true,
               loop: true,
-              delay: 35
+              delay: 78
             }}
           />
         </div>
