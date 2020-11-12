@@ -1,7 +1,10 @@
 hr {
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgb(43, 43, 43), rgb(43, 43, 43),rgb(43, 43, 43));
+  width: 60%;
+  margin-top: 4.5%;
+  margin-bottom: 2.3%;
   }
   
   .container-box {
@@ -19,3 +22,5 @@ hr {
     height: 100%;
     z-index: 1;
   }
+  
+
