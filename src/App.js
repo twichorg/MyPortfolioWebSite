@@ -9,6 +9,7 @@ import { Parallax } from 'react-parallax';
 import Container from 'react-bootstrap/Container';
 import Skills from './pages/skills/skills.component';
 import Rotate from 'react-reveal/Rotate';
+import ProjectTimeLine from './components/project-timeline/project-timeline.component';
 
 const App = () => {
   return (
@@ -16,11 +17,13 @@ const App = () => {
      <MyNavbar/>
       <MyCarousal/>
        <TitleMessage/>
-       <Fade bottom big>
+       <Fade bottom big duration={50}>
         <About/>
-         <Skills/>
           </Fade>
-         
+            <Fade>
+              <Skills/>
+            </Fade>
+            <ProjectTimeLine/>
     </div>
   );
 }
